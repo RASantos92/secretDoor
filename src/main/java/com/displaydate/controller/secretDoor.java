@@ -37,4 +37,9 @@ public class secretDoor {
 		return "inside.jsp";
 	}
 
+	@RequestMapping("/home")
+	public String home(Model model) {
+		return "redirect:/";
+	}
+
 }

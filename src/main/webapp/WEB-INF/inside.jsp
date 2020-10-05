@@ -17,8 +17,13 @@
 		    <h1>Congratulations Your Inside</h1>
 		    <br>
 		    <h1>You can now Git Clone This Mad gold</h1>
-		    <a href="https://github.com/RASantos92/secretDoor"></a>
+		    <a class="col bg-warning text-light" href="https://github.com/RASantos92/secretDoor.git">https://github.com/RASantos92/secretDoor.git</a>
         </div>
+        <form action="/home" method="get">
+                    <div class="form-group text-center">
+                    <input type="submit" value="home" class="btn btn-info btn-block" />
+                    </div>
+                </form>
     </div>
 </body>
 </html>
