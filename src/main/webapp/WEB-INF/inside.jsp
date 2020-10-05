@@ -20,10 +20,10 @@
 		    <a class="col bg-warning text-light" href="https://github.com/RASantos92/secretDoor.git">https://github.com/RASantos92/secretDoor.git</a>
         </div>
         <form action="/home" method="get">
-                    <div class="form-group text-center">
-                    <input type="submit" value="home" class="btn btn-info btn-block" />
-                    </div>
-                </form>
+                   <div class="form-group text-center">
+                   <input type="submit" value="home" class="btn btn-info btn-block" />
+                 </div>
+             </form>
     </div>
 </body>
 </html>

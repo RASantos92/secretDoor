@@ -39,7 +39,12 @@ public class secretDoor {
 
 	@RequestMapping("/home")
 	public String home(Model model) {
+		guess = new ArrayList<String>();
 		return "redirect:/";
 	}
+//	@GetMapping("/reset")
+//	public String reset(HttpSession session) {
+//		session.removeAttribute("pageViews");
+//		return "redirect:/";
 
 }
